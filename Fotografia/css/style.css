@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -92,6 +91,56 @@ section#central {
         margin-right: 30px;
         flex-direction: row;
         justify-content: flex-end;
+    }
+
+    nav > ul > li {
+        margin: 0;
+    }
+
+    nav > ul > li > a {
+        margin-left: 40px;
+    }
+
+
+    #secundario{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: #d5c75f;
+        border: 1px;
+    }
+
+    #izq{
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 3rem;
+    }
+
+    #izq > img{
+        display: block;
+        margin: auto;
+    }
+
+    #der{
+        text-align: center;
+        padding-top: 2%;
+        padding-right: 3rem;
+    }
+
+    #der > img{
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav > ul{
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: center;
     }
 
     nav > ul > li {
